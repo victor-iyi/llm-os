@@ -28,3 +28,11 @@ psycopg = {version = "^3.1.19", extras = ["binary"]}
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.pyright]
+reportOptionalCall = "none"
+reportGeneralTypeIssues = "none"
+reportOptionalMemberAccess = "none"
+reportUnboundVariable = "none"
+
