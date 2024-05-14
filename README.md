@@ -8,6 +8,10 @@ He talks about it [in this tweet][tweet1], [this tweet][tweet2] and [this video]
 [tweet2]: https://twitter.com/karpathy/status/1707437820045062561
 [this video]: https://youtu.be/zjkBMFhNj_g?t=2535
 
+![LLM-OS Architecture][llm-os-arch]
+
+[llm-os-arch]: ./res/images/llm-os-architecture.png
+
 ## Contribution
 
 You are very welcome to modify and use them in your own projects.

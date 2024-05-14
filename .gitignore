@@ -68,3 +68,4 @@ dmypy.json
 # Project ignores
 res/*
 !res/images
+scratch

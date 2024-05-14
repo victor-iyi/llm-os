@@ -19,6 +19,9 @@ from phi.storage.assistant.postgres import PgAssistantStorage
 from phi.utils.log import logger
 from phi.vectordb.pgvector.pgvector2 import PgVector2
 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_URL: str = 'postgresql+psycopg://ai:ai@localhost:5532/ai'
 cwd = Path(__file__).parent.resolve()
