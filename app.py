@@ -20,7 +20,7 @@ st.set_page_config(
 )
 st.title('LLM OS')
 st.caption(
-    ':robot_face: Inspired by Andrej Karpathy'
+    ':robot_face: Inspired by [Andrej Karpathy](https://karpathy.ai)'
 )
 
 
@@ -211,7 +211,7 @@ def main() -> None:
     else:
         logger.debug('No chat history found')
         st.session_state['messages'] = [
-            {'role': 'user', 'content': 'As me questions...'},
+            {'role': 'user', 'content': 'Ask me questions...'},
         ]
 
     # Prompt for the user input.

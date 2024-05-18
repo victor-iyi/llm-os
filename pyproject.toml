@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "llm-os"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "LLMs as kernel process of a new Operating System"
 authors = ["Victor I. Afolabi <javafolabi@gmail.com>"]
 readme = "README.md"
 
