@@ -44,6 +44,27 @@ def get_llm_os(
     run_id: str | None = None,
     debug_mode: bool = True,
 ) -> Assistant:
+    """Create the assistant OS.
+
+    Args:
+        llm_id (str): LLM model to use.
+        calculator (bool): Whether to use calculator tool.
+        ddg_search (bool): Whether to use Duck Duck Go search engine.
+        file_tools (bool): Whether to use file utilities.
+        shell_tools (bool): Whether to use shell tool.
+        data_analyst (bool): Whether to use a Data Analyst assistant.
+        python_assistant (bool): Whether to use Python assistant.
+        research_assistant (bool): Whether to use a research assistant.
+        investment_assistant (bool): Whether to use an investment analyst assistant.
+        user_id (str, optional): User identification.
+        run_id (str, optional): Run identification.
+        debug_mode (bool): Whether or not to print debug logs.
+
+    Returns:
+        Assistant - An assistant that co-ordinates and orchestrate all the tools
+            and assistants (AI agents).
+
+    """
 
     logger.info(f'-*- Creating {llm_id} LLM OS -*-')
 
